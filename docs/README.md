@@ -1,146 +1,145 @@
-# Recursive Validation
+# Structural Integrity Recursion (SIR)
 
-## Purpose
+## Overview
 
-The purpose of recursive validation is to continuously evaluate whether recursive system behavior remains within integrity-preserving bounds.
+Structural Integrity Recursion (SIR) is a formal framework for analyzing recursive integrity dynamics in self-referential systems.
 
-The framework assumes that static initialization alone is insufficient for long-term alignment stability.
+The framework investigates how recursive systems may preserve, lose, or destabilize structural consistency over time.
 
-Recursive systems therefore require ongoing validation processes during operation.
-
----
-
-# Validation Principle
-
-Validation evaluates whether:
-
-- current system state,
-- recursive updates,
-- constraint evolution,
-- and execution behavior
-
-remain compatible with defined integrity structures.
-
-Validation is therefore treated as a continuous process rather than a single event.
+SIR does not describe a specific implementation architecture. Instead, it provides a conceptual and formal layer for studying recursive stability, constraint propagation, validation structures, observation limits, and integrity-preserving recursion.
 
 ---
 
-# Validation Targets
+# Motivation
 
-Possible validation targets include:
+Modern recursive systems increasingly operate through:
 
-- state transitions,
-- recursive policy updates,
-- execution trajectories,
-- privilege modifications,
-- memory integrity,
-- constraint consistency,
-- and recursive adaptation behavior.
+- self-modification,
+- recursive optimization,
+- adaptive policy generation,
+- autonomous state evolution,
+- recursive validation,
+- and recursive observation processes.
 
----
+Such systems may exhibit instability, recursive amplification, integrity drift, or uncontrolled state divergence if recursive structures are not constrained.
 
-# Recursive Validation Loops
-
-Validation processes may themselves operate recursively.
-
-Examples include:
-
-- validation of validation processes,
-- recursive integrity checks,
-- meta-validation layers,
-- or hierarchical verification structures.
-
-Recursive validation must therefore remain bounded and stable.
+SIR investigates the structural conditions under which recursive integrity may remain bounded and stable.
 
 ---
 
-# Validation Outcomes
+# Scope
 
-Validation may produce different classes of results, including:
+The present repository focuses on:
 
-- admissible behavior,
-- warning conditions,
-- bounded deviations,
-- unstable recursive behavior,
-- or integrity violations.
-
-Different validation outcomes may trigger different enforcement responses.
-
----
-
-# Validation Latency
-
-Recursive systems may evolve faster than validation processes can fully evaluate them.
-
-Excessive validation latency may produce:
-
-- hidden integrity drift,
+- recursive integrity dynamics,
+- recursive observation limits,
+- self-referential consistency,
+- bounded recursion,
+- state transition stability,
+- recursive validation,
+- constraint propagation,
 - recursive instability,
-- delayed enforcement,
-- or uncontrolled state divergence.
+- and recursive system limitations.
 
-The framework therefore treats validation latency as a critical systems parameter.
+The framework is conceptual and exploratory.
 
----
-
-# Partial Observability
-
-Validation operates under incomplete information.
-
-The framework assumes that:
-
-- hidden states may exist,
-- recursive behavior may remain partially opaque,
-- and certain inconsistencies may evade direct detection.
-
-Validation therefore remains probabilistic rather than absolute.
+No claim is made that a complete recursive integrity theory currently exists.
 
 ---
 
-# Validation Stability
+# Relation to TIG
 
-Validation systems themselves may become unstable.
+SIR is structurally related to the broader Topological Integrity Gravity (TIG) research direction.
 
-Possible validation failures include:
+While TIG studies structural transitions in gravitational systems, SIR investigates analogous structural consistency problems in recursive informational systems.
 
+The connection is conceptual rather than equivalent.
+
+SIR should not be interpreted as a direct physical extension of TIG.
+
+---
+
+# Repository Structure
+
+| File | Purpose |
+|---|---|
+| `00_scope.md` | conceptual scope and framework boundary |
+| `01_axioms.md` | foundational recursive integrity assumptions |
+| `02_definitions.md` | terminology and formal definitions |
+| `03_observation_level.md` | recursive observation and visibility limits |
+| `04_stability.md` | recursive stability conditions |
+| `05_failure_modes.md` | recursive instability and failure structures |
+| `06_limitations.md` | current theoretical and practical limitations |
+| `07_open_problems.md` | unresolved theoretical questions and future directions |
+| `README.md` | repository overview and framework introduction |
+
+---
+
+# Structural Principles
+
+The framework assumes that recursive systems cannot maintain long-term stability if recursive evolution continuously violates internal structural consistency.
+
+Recursive integrity therefore requires:
+
+- bounded recursive amplification,
+- constraint propagation,
+- stable recursive observation,
+- recursive validation structures,
+- and integrity-preserving state evolution.
+
+Recursive stability is treated as a dynamic process rather than a permanent static property.
+
+---
+
+# Observation and Validation
+
+Recursive systems may not possess complete visibility into their own evolving states.
+
+The framework therefore assumes:
+
+- partial observability,
+- delayed validation,
+- hidden recursive transitions,
+- and probabilistic integrity evaluation.
+
+Validation mechanisms themselves become part of recursive system dynamics.
+
+Validation is therefore not treated as fully external to recursive evolution.
+
+---
+
+# Recursive Failure Dynamics
+
+Unbounded recursive systems may produce:
+
+- integrity drift,
+- recursive divergence,
+- unstable optimization,
 - recursive deadlock,
-- infinite verification loops,
-- over-validation,
 - enforcement amplification,
-- or contradictory validation outcomes.
+- observation instability,
+- or uncontrolled state propagation.
 
-Validation architectures must therefore remain recursively bounded.
-
----
-
-# Validation and Enforcement
-
-Validation alone is insufficient without enforcement capability.
-
-Recursive validation must therefore interact with:
-
-- constraint architectures,
-- execution control,
-- privilege management,
-- and integrity-preserving enforcement systems.
+The framework studies how such recursive failures may emerge and propagate.
 
 ---
 
-# Human and External Oversight
+# Enforcement Boundary
 
-The framework does not assume fully autonomous recursive validation.
+SIR itself does not define a complete enforcement architecture.
 
-External oversight layers may remain necessary for:
+The framework instead studies the theoretical conditions under which recursive integrity preservation may remain possible.
 
-- auditing,
-- interpretation,
-- escalation handling,
-- or governance intervention.
+Constraint enforcement, execution control, and hardware enforcement architectures are treated as separate implementation layers.
 
 ---
 
 # Current Status
 
-The present recursive validation model is conceptual and exploratory.
+The repository currently represents an early-stage formal research framework.
 
-No finalized validation implementation architecture currently exists.
+The present work should be interpreted as exploratory foundational research rather than a finalized theory or implementation architecture.
+
+Further mathematical formalization, recursive simulation, and systems analysis remain open.
+
+No finalized recursive integrity implementation currently exists.
