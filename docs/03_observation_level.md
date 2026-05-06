@@ -1,122 +1,112 @@
-# Observation Level
+# Observation Levels and Recursive Visibility
 
-## Purpose
+## Overview
 
-The observation level defines which aspects of recursive integrity dynamics may become empirically accessible.
+Recursive systems may not possess complete visibility into their own evolving internal states.
 
-The framework does not assume direct access to all internal system variables.
+Observation therefore remains structurally limited.
 
-Instead, measurable indicators are derived from observable system behavior.
-
----
-
-# Observable Quantities
-
-The following quantities may be directly or indirectly observable:
-
-- state transitions,
-- update frequency,
-- reaction latency,
-- integrity variation,
-- persistence of inconsistencies,
-- correction success rates.
+The framework assumes that recursive systems operate under partial observability conditions.
 
 ---
 
-# Reaction Delay
+# Internal Observation
 
-Reaction delay describes the temporal distance between:
+A recursive system may attempt to observe:
 
-1. occurrence of inconsistency,
-2. detected inconsistency,
-3. corrective update,
-4. measurable state response.
+- internal state transitions,
+- recursive updates,
+- validation processes,
+- constraint propagation,
+- or enforcement dynamics.
 
-Large delays may reduce long-term stability.
+However, recursive observation itself consumes system resources and alters recursive evolution.
 
----
-
-# Correction Dynamics
-
-Corrective updates may produce:
-
-- successful stabilization,
-- partial stabilization,
-- overcorrection,
-- oscillation,
-- or degradation.
-
-Observation therefore focuses not only on update existence, but also on update quality.
+Observation is therefore not neutral.
 
 ---
 
-# Observable Integrity Behavior
+# Observation Limits
 
-Although integrity itself may not be directly measurable, observable proxies may include:
+The framework assumes several structural observation limits:
 
-- persistence duration of inconsistencies,
-- recovery time,
-- system coherence,
-- update effectiveness,
-- and stability under perturbation.
+- hidden recursive states may exist,
+- delayed state transitions may occur,
+- recursive compression may obscure causality,
+- and observation latency may distort system interpretation.
 
----
-
-# High-SIR Systems
-
-Systems with high recursive integrity may exhibit:
-
-- rapid inconsistency detection,
-- low reaction latency,
-- stable integrity behavior,
-- and bounded correction dynamics.
+Perfect recursive transparency is therefore not assumed.
 
 ---
 
-# Low-SIR Systems
+# Recursive Self-Observation
 
-Systems with low recursive integrity may exhibit:
+Recursive self-observation introduces additional recursive complexity.
 
-- delayed detection,
-- ineffective updates,
-- accumulation of inconsistencies,
-- structural fragmentation,
-- or unstable feedback behavior.
+A system observing itself recursively may generate:
 
----
+- recursive monitoring chains,
+- self-referential instability,
+- observation amplification,
+- or recursive interpretive divergence.
 
-# Instability Regime
-
-An unstable recursive regime may produce:
-
-- oscillatory corrections,
-- runaway updates,
-- recursive amplification of errors,
-- or collapse of consistency structures.
+Recursive self-observation must therefore remain bounded.
 
 ---
 
-# Domain Independence
+# Observation Latency
 
-The observation framework is substrate-independent.
+Observation may occur slower than recursive system evolution.
 
-The same structural principles may in principle be analyzed in:
+This may produce:
 
-- computational systems,
-- biological systems,
-- social systems,
-- or cognitive systems.
+- outdated integrity evaluation,
+- delayed enforcement,
+- hidden instability propagation,
+- or recursive drift.
 
-No claim of equivalence is made between these domains.
+Observation latency therefore represents a structural integrity risk.
 
 ---
 
-# Limits of Observability
+# Probabilistic Integrity Assessment
 
-The framework assumes that:
+Because recursive observation remains incomplete, integrity assessment cannot be treated as fully deterministic.
 
-- complete internal state reconstruction may be impossible,
-- inconsistencies may remain partially hidden,
-- and observed deviation may differ from actual deviation.
+The framework therefore models recursive integrity evaluation as probabilistic and bounded.
 
-Empirical access is therefore necessarily incomplete.
+---
+
+# External Observation
+
+External observers may possess only partial access to recursive system behavior.
+
+External validation may therefore fail to detect:
+
+- hidden recursive transitions,
+- covert state modification,
+- recursive policy divergence,
+- or latent integrity collapse.
+
+Complete external recursive verification is not assumed.
+
+---
+
+# Stability Requirement
+
+Recursive observation architectures must remain:
+
+- bounded,
+- stable,
+- resource-constrained,
+- and recursively non-destructive.
+
+Observation systems that recursively destabilize the systems they monitor violate structural integrity conditions.
+
+---
+
+# Current Status
+
+The present observation framework remains conceptual and exploratory.
+
+No finalized recursive observation architecture currently exists.
