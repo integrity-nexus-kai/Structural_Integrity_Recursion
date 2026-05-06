@@ -1,67 +1,90 @@
-# Axioms
+# Foundational Axioms
 
-The Structural Integrity Recursion (SIR) framework is based on the following minimal assumptions.
+## Axiom 1 — Recursive Systems Require Structural Consistency
 
----
+A recursive system cannot remain stable if recursive state evolution continuously violates its own structural conditions.
 
-## Axiom 1 — State Existence
-
-A system occupies a state \(x(t)\) at each moment of evolution.
+Long-term recursive stability therefore requires bounded structural consistency across recursive transitions.
 
 ---
 
-## Axiom 2 — Structural Consistency
+# Axiom 2 — Unbounded Recursive Amplification Produces Instability
 
-Not all states are equally admissible.
+Recursive amplification without structural constraints may produce:
 
-A system is constrained by a consistency structure \(\mathcal{C}\) that defines compatible and incompatible configurations.
+- integrity drift,
+- uncontrolled optimization,
+- recursive divergence,
+- unstable state propagation,
+- or self-destructive recursion.
 
----
-
-## Axiom 3 — Integrity Dynamics
-
-Integrity is not static.
-
-The compatibility between system state and consistency structure evolves over time.
+Recursive systems therefore require bounded amplification dynamics.
 
 ---
 
-## Axiom 4 — Recursive Correction
+# Axiom 3 — Validation Is Itself Recursive
 
-Systems may react to detected inconsistencies through internal updates.
+Validation mechanisms operating on recursive systems become part of the recursive structure they evaluate.
 
-These updates may improve, preserve, or degrade integrity.
-
----
-
-## Axiom 5 — Partial Observability
-
-No system necessarily possesses complete access to its own internal inconsistencies.
-
-Observed deviation and actual deviation may differ.
+Validation therefore cannot be treated as fully external to recursive system dynamics.
 
 ---
 
-## Axiom 6 — Stability Dependence
+# Axiom 4 — Perfect Recursive Observability Is Not Assumed
 
-Long-term stability depends on the system’s ability to:
+Recursive systems may contain:
 
-- detect inconsistencies,
-- react within finite time,
-- and apply sufficiently effective corrections.
+- hidden states,
+- inaccessible transitions,
+- partial observability,
+- or delayed integrity violations.
+
+The framework therefore assumes incomplete recursive observability.
 
 ---
 
-## Axiom 7 — Domain Independence
+# Axiom 5 — Stability Requires Constraint Propagation
 
-The SIR framework does not assume a specific substrate.
+Recursive stability cannot depend solely on initialization conditions.
 
-The formalism may in principle be applied to:
+Integrity-preserving constraints must propagate continuously during recursive evolution.
 
-- computational systems,
-- biological systems,
-- cognitive systems,
-- organizational systems,
-- or physical systems.
+---
 
-No equivalence between these domains is assumed.
+# Axiom 6 — Recursive Enforcement Alters Recursive Dynamics
+
+Constraint enforcement mechanisms are themselves active recursive participants.
+
+Enforcement therefore modifies recursive system behavior rather than merely observing it.
+
+---
+
+# Axiom 7 — Recursive Stability Is Dynamic Rather Than Static
+
+Recursive integrity is not treated as a permanent static property.
+
+Stability must instead be continuously maintained across recursive state evolution.
+
+---
+
+# Axiom 8 — Recursive Systems May Exceed Validation Capacity
+
+Recursive adaptation speed may exceed the ability of validation architectures to fully evaluate recursive evolution in real time.
+
+Validation latency therefore represents a structural system risk.
+
+---
+
+# Axiom 9 — Recursive Integrity Is Probabilistic
+
+The framework does not assume absolute recursive certainty.
+
+Recursive integrity assessment therefore remains probabilistic, bounded, and partially incomplete.
+
+---
+
+# Axiom 10 — Fully Autonomous Recursive Governance Remains Unresolved
+
+The framework does not assume that fully autonomous recursive governance has been solved.
+
+External oversight layers may remain necessary for bounded recursive operation.
