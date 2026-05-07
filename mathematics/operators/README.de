@@ -1,0 +1,15 @@
+# Recursive Operators
+
+## Purpose
+
+This directory contains recursive operator structures
+used for integrity-preserving transformations.
+
+The focus includes:
+
+- recursive transition operators,
+- admissibility propagation,
+- consistency-preserving transformations,
+- and recursive constraint enforcement.
+
+The purpose is structural formalization of recursive dynamics.
