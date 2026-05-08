@@ -10,6 +10,7 @@ This directory contains exploratory mathematical investigations into possible in
 - recursive admissibility theory,
 - recursive localization and compactness,
 - exploratory numerical spectral systems,
+- continuum operator-domain structures,
 - and Yang–Mills-type spectral problems.
 
 The present framework remains exploratory and mathematically structural.
@@ -46,7 +47,10 @@ The present work focuses on:
 - bounded spectral flow,
 - recursive spectral stabilization,
 - exploratory numerical spectral interface studies,
-- and exploratory lower spectral organization.
+- continuum operator-domain analysis,
+- bounded recursive perturbation structures,
+- Kato–Rellich compatibility investigations,
+- and exploratory lower spectral implication chains.
 
 The framework studies these structures only at an exploratory mathematical level.
 
@@ -112,6 +116,18 @@ Exploratory numerical investigations of:
 
 ---
 
+## Priority 6 — Continuum Operator Theory
+
+Exploratory investigations of:
+
+- continuum operator domains,
+- bounded recursive perturbations,
+- variational lower-bound structures,
+- Kato–Rellich compatibility,
+- and proto lower spectral implication chains.
+
+---
+
 # Reading Order
 
 Recommended reading sequence:
@@ -127,6 +143,11 @@ Recommended reading sequence:
 9. `yang_mills_recursive_gap_program.md`
 10. `RESEARCH_PRIORITY.md`
 11. `yang_mills_numerical_interface.md`
+12. `continuum_operator_domain_program.md`
+13. `variational_lower_bound_lemma.md`
+14. `bounded_recursive_perturbation_lemma.md`
+15. `kato_rellich_interface.md`
+16. `proto_lower_spectral_theorem.md`
 
 ---
 
@@ -156,7 +177,11 @@ Major unresolved problems include:
 7. variational lower-bound proofs,
 8. rigorous lower spectral positivity,
 9. numerical continuum consistency,
-10. and recursive spectral convergence behavior.
+10. recursive spectral convergence behavior,
+11. renormalization stability,
+12. gauge-invariant continuum evolution,
+13. rigorous continuum-limit estimates,
+14. and admissible perturbative operator control.
 
 These remain open mathematical problems.
 
@@ -178,9 +203,25 @@ The framework now additionally includes an exploratory numerical interface layer
 - bounded spectral flow,
 - stabilization behavior,
 - recursive localization,
+- continuum-scaled confinement,
 - and exploratory lower spectral structures.
 
 These numerical investigations are exploratory only and do not constitute rigorous Yang–Mills analysis.
+
+---
+
+# Continuum Operator Layer
+
+The framework additionally investigates exploratory continuum operator structures involving:
+
+- continuum-scaled recursive operators,
+- bounded recursive perturbation sectors,
+- variational lower-bound structures,
+- Kato–Rellich compatibility,
+- recursive confinement operators,
+- and exploratory lower spectral implication chains.
+
+These investigations currently remain exploratory and do not constitute rigorous lower spectral proofs.
 
 ---
 
@@ -193,6 +234,7 @@ The long-term objective is investigating whether recursively admissible operator
 - bounded perturbative evolution,
 - admissibility-preserving spectral stabilization,
 - controlled spectral flow,
-- and recursively stabilized numerical spectral behavior.
+- recursively stabilized numerical spectral behavior,
+- and mathematically controlled continuum operator evolution.
 
 At the current stage, the framework remains exploratory mathematical research only.
