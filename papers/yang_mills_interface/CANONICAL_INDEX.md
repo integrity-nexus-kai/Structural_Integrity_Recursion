@@ -1,165 +1,424 @@
-# Yang–Mills Interface
+# Yang–Mills Interface Canonical Index
 
 ## Purpose
 
-This directory contains exploratory mathematical investigations into possible interfaces between:
+This document defines the canonical structure, dependency hierarchy, document authority mapping, and organizational consistency framework for the exploratory Yang–Mills Interface program within Structural Integrity Recursion (SIR).
 
-- Structural Integrity Recursion (SIR),
-- recursive spectral operator systems,
-- variational lower-bound structures,
-- recursive admissibility theory,
-- recursive localization and compactness,
-- and Yang–Mills-type spectral problems.
+The objective is maintaining:
 
-The present framework remains exploratory and mathematically structural.
+- mathematical consistency,
+- controlled terminology,
+- dependency transparency,
+- canonical research organization,
+- and disciplined framework evolution.
+
+The framework remains exploratory and mathematically structural.
 
 No Yang–Mills Mass Gap proof is currently claimed.
 
 ---
 
-# Scientific Position
+# 1. Canonical Organizational Principle
 
-The scientifically correct interpretation of the current framework is:
+The Yang–Mills Interface directory is organized as a layered exploratory research framework.
 
-- SIR investigates recursive spectral organization mechanisms,
-- SIR explores admissibility-preserving operator evolution,
-- SIR studies recursive stabilization structures,
-- and SIR may eventually provide mathematically useful tools for broader lower spectral investigations.
+The objective is not producing isolated speculative papers.
 
-The framework does not currently construct or solve the full Yang–Mills quantum operator problem.
+Instead, the framework aims to construct a coherent recursive spectral research architecture with explicitly defined:
 
-No rigorous lower spectral positivity proof currently exists within the framework.
-
----
-
-# Current Research Direction
-
-The present work focuses on:
-
-- recursive operator organization,
-- variational lower-bound structures,
-- admissibility-preserving perturbative sectors,
-- recursive localization,
-- recursive compactness,
-- bounded spectral flow,
-- recursive spectral stabilization,
-- and exploratory lower spectral organization.
-
-The framework studies these structures only at an exploratory mathematical level.
+- dependency structures,
+- operator hierarchies,
+- stabilization layers,
+- and analytical development paths.
 
 ---
 
-# Research Priorities
+# 2. Foundational Operator Layer
 
-The current mathematical priorities are:
+## Canonical Authority
 
-## Priority 1 — Operator Foundations
+### `yang_mills_operator_foundations.md`
+
+Defines:
+
+- non-abelian operator perspective,
+- Yang–Mills operator structure,
+- foundational spectral terminology,
+- and operator-level research scope.
+
+All later operator discussions depend on this document.
+
+---
+
+## Canonical Authority
+
+### `yang_mills_variational_operator.md`
+
+Defines:
+
+- recursive variational structures,
+- quadratic-form organization,
+- and exploratory lower-bound investigation direction.
+
+Provides the canonical variational baseline.
+
+---
+
+## Canonical Authority
+
+### `yang_mills_self_adjointness.md`
+
+Defines:
 
 - admissible operator domains,
+- self-adjointness conditions,
+- Hilbert-space requirements,
+- and operator stability principles.
+
+All continuum operator investigations depend on this document.
+
+---
+
+## Canonical Authority
+
+### `yang_mills_admissible_state_spaces.md`
+
+Defines:
+
+- admissibility structures,
+- perturbative state-sector organization,
+- gauge-sector selection,
+- and recursive admissibility principles.
+
+All admissibility investigations depend on this document.
+
+---
+
+# 3. Stabilization Layer
+
+## Canonical Authority
+
+### `yang_mills_recursive_compactness.md`
+
+Defines:
+
+- recursive compactness structures,
+- bounded perturbative sectors,
+- recursive localization support,
+- and compact spectral organization.
+
+Depends on:
+
+- admissibility,
+- perturbative stability,
+- and localization structures.
+
+---
+
+## Canonical Authority
+
+### `yang_mills_recursive_localization.md`
+
+Defines:
+
+- recursive localization structures,
+- perturbative concentration behavior,
+- stabilization wells,
+- and spectral escape suppression.
+
+Depends on:
+
+- admissibility,
+- compactness,
+- and perturbative stability.
+
+---
+
+## Canonical Authority
+
+### `yang_mills_spectral_flow.md`
+
+Defines:
+
+- spectral evolution structures,
+- recursive spectral restructuring,
+- perturbative spectral organization,
+- and bounded spectral flow.
+
+Depends on:
+
+- operator foundations,
 - self-adjointness,
-- gauge-consistent Hilbert spaces,
-- and controlled perturbative evolution.
+- localization,
+- and compactness.
 
 ---
 
-## Priority 2 — Variational Lower Bounds
+## Canonical Authority
 
-Investigation of structures of the form:
+### `yang_mills_recursive_spectral_stabilization.md`
 
-\[
-Q[u]\ge c\|u\|^2
-\]
+Defines:
 
-within recursively admissible operator systems.
+- integrated recursive stabilization structures,
+- bounded spectral organization,
+- admissibility-preserving spectral evolution,
+- and recursive stabilization chains.
 
----
+Depends on:
 
-## Priority 3 — Localization and Compactness
-
-Investigation of:
-
-- recursive localization,
-- compact perturbative sectors,
-- recursive stabilization wells,
-- and bounded recursive amplification.
+- localization,
+- compactness,
+- admissibility,
+- and spectral flow.
 
 ---
 
-## Priority 4 — Spectral Flow
+# 4. Program Consolidation Layer
 
-Exploratory investigations of:
+## Canonical Authority
 
-\[
-\lambda_n(t)
-\]
+### `yang_mills_recursive_gap_program.md`
 
-under recursively admissible perturbative evolution.
+Defines:
 
----
+- global exploratory research architecture,
+- recursive stabilization chain,
+- global dependency structure,
+- and long-term organizational direction.
 
-# Reading Order
-
-Recommended reading sequence:
-
-1. `yang_mills_operator_foundations.md`
-2. `yang_mills_variational_operator.md`
-3. `yang_mills_self_adjointness.md`
-4. `yang_mills_admissible_state_spaces.md`
-5. `yang_mills_recursive_compactness.md`
-6. `yang_mills_recursive_localization.md`
-7. `yang_mills_spectral_flow.md`
-8. `yang_mills_recursive_spectral_stabilization.md`
-9. `yang_mills_recursive_gap_program.md`
-10. `RESEARCH_PRIORITY.md`
+Depends on all prior stabilization-layer documents.
 
 ---
 
-# Repository Philosophy
+## Canonical Authority
 
-The present framework intentionally avoids:
+### `RESEARCH_PRIORITY.md`
 
-- premature physical claims,
-- unsupported mass-gap assertions,
-- speculative equivalence statements,
-- and non-rigorous proof language.
+Defines:
 
-The objective is disciplined mathematical framework development.
+- mathematical prioritization,
+- strategic research order,
+- consolidation focus,
+- and long-term development sequencing.
 
----
-
-# Current Mathematical Unknowns
-
-Major unresolved problems include:
-
-1. rigorous Yang–Mills Hamiltonian construction,
-2. admissible gauge Hilbert spaces,
-3. self-adjoint operator domains,
-4. recursive compactness theorems,
-5. localization stability analysis,
-6. spectral-flow stabilization,
-7. variational lower-bound proofs,
-8. and rigorous lower spectral positivity.
-
-These remain open mathematical problems.
+This document governs future expansion priorities.
 
 ---
 
-# Relation to SIR
+# 5. Numerical Interface Layer
 
-The Yang–Mills interface should not be interpreted as a completed extension of SIR.
+## Canonical Authority
 
-Instead, the present work represents an exploratory mathematical research direction investigating whether recursively constrained stabilization structures may eventually provide useful insight into non-linear gauge spectral organization.
+### `yang_mills_numerical_interface.md`
+
+Defines:
+
+- exploratory numerical spectral objectives,
+- recursive eigenvalue investigations,
+- continuum-scaled numerical organization,
+- and numerical stabilization methodology.
+
+Serves as the canonical numerical interface baseline.
 
 ---
 
-# Long-Term Objective
+## Canonical Authority
 
-The long-term objective is investigating whether recursively admissible operator systems may generate stabilized lower spectral organization through:
+### `stabilized_recursive_spectral_scan_results.md`
 
-- recursive localization,
-- recursive compactness,
-- bounded perturbative evolution,
-- admissibility-preserving spectral stabilization,
-- and controlled spectral flow.
+Defines:
 
-At the current stage, this remains exploratory mathematical research only.
+- initial stabilized recursive spectral scan results,
+- finite-dimensional stabilization observations,
+- and exploratory lower spectral separation evidence.
+
+Depends on:
+
+- recursive numerical stabilization models.
+
+---
+
+## Canonical Authority
+
+### `recursive_gap_scaling_results.md`
+
+Defines:
+
+- recursive scaling investigations,
+- operator-dimension scaling behavior,
+- and finite-dimensional spectral robustness analysis.
+
+Depends on:
+
+- stabilized recursive spectral scans.
+
+---
+
+## Canonical Authority
+
+### `scaled_recursive_confinement_results.md`
+
+Defines:
+
+- continuum-scaled recursive confinement investigations,
+- continuum-stable numerical spectral organization,
+- and stabilized lower spectral separation under scaling.
+
+Depends on:
+
+- continuum-scaled recursive confinement operators.
+
+---
+
+# 6. Continuum Operator Layer
+
+## Canonical Authority
+
+### `continuum_operator_domain_program.md`
+
+Defines:
+
+- continuum operator-domain structure,
+- Hilbert-space foundations,
+- admissible continuum evolution,
+- and continuum scaling requirements.
+
+Serves as the canonical continuum operator baseline.
+
+---
+
+## Canonical Authority
+
+### `variational_lower_bound_lemma.md`
+
+Defines:
+
+- exploratory variational lower-bound structures,
+- positive lower spectral organization conditions,
+- and recursive stabilization inequalities.
+
+Depends on:
+
+- continuum operator structures.
+
+---
+
+## Canonical Authority
+
+### `bounded_recursive_perturbation_lemma.md`
+
+Defines:
+
+- bounded recursive perturbation structures,
+- relative perturbation control,
+- and perturbative operator stability conditions.
+
+Depends on:
+
+- variational lower-bound structures,
+- and continuum operator domains.
+
+---
+
+## Canonical Authority
+
+### `kato_rellich_interface.md`
+
+Defines:
+
+- exploratory Kato–Rellich compatibility,
+- relative boundedness structures,
+- and self-adjoint perturbation compatibility.
+
+Depends on:
+
+- bounded recursive perturbation analysis,
+- self-adjointness,
+- and continuum operator theory.
+
+---
+
+## Canonical Authority
+
+### `proto_lower_spectral_theorem.md`
+
+Defines:
+
+- exploratory lower spectral implication chains,
+- proto-theorem structures,
+- stabilization assumptions,
+- and heuristic lower spectral positivity organization.
+
+Depends on:
+
+- continuum operator domains,
+- variational lower bounds,
+- bounded recursive perturbations,
+- and Kato–Rellich compatibility.
+
+---
+
+# 7. Directory Governance Layer
+
+## Canonical Authority
+
+### `README.md`
+
+Defines:
+
+- scientific position,
+- repository philosophy,
+- reading order,
+- research boundaries,
+- and high-level framework interpretation.
+
+Serves as the canonical external entry point.
+
+---
+
+## Canonical Authority
+
+### `CANONICAL_INDEX.md`
+
+Defines:
+
+- dependency hierarchy,
+- document authority structure,
+- canonical terminology organization,
+- and framework stabilization mapping.
+
+Serves as the canonical internal consistency layer.
+
+---
+
+# 8. Dependency Hierarchy
+
+The current dependency organization is approximately:
+
+```text
+Operator Foundations
+    ↓
+Variational Structures
+    ↓
+Self-Adjointness
+    ↓
+Admissible State Spaces
+    ↓
+Localization + Compactness
+    ↓
+Spectral Flow
+    ↓
+Recursive Spectral Stabilization
+    ↓
+Numerical Interface Layer
+    ↓
+Continuum Operator Domains
+    ↓
+Variational Lower Bounds
+    ↓
+Bounded Recursive Perturbations
+    ↓
+Kato–Rellich Compatibility
+    ↓
+Proto Lower Spectral Structure
