@@ -65,6 +65,22 @@ Canonical authority for:
 * recursive operators,
 * and recursive geometry.
 
+## Governance and Canonical Structures
+
+Core governance and stabilization documents:
+
+- GOVERNANCE.md
+- STATUS.md
+- docs/CANONICAL_INDEX.md
+
+These documents define:
+
+- recursive admissibility governance,
+- canonical structure classification,
+- primitive stabilization,
+- semantic consistency rules,
+- and publication-grade repository structure.
+
 ---
 
 ## SGI
