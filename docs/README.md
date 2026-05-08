@@ -2,39 +2,86 @@
 
 ## Purpose
 
-Structural Integrity Recursion (SIR) is the mathematical meta-framework for recursive integrity-constrained systems.
+Structural Integrity Recursion (SIR) is a general recursive mathematical framework for investigating stability, admissibility, bounded evolution, and structural consistency in recursive systems.
 
-This repository currently focuses on the mathematical structures emerging from Topological Integrity Gravity (TIG), including:
+The framework studies how recursively evolving systems may preserve, destabilize, or collapse under internal structural constraints.
 
-- recursive geometry,
-- admissible state spaces,
-- recursive operator theory,
-- spectral stability,
+SIR is not itself a physical theory.
+
+Instead, it provides a formal recursive structure framework that may be applied to:
+
+- recursive geometric systems,
+- recursive operator systems,
+- spectral stability analysis,
 - variational structures,
-- numerical spectral analysis,
-- and exploratory lower spectral evidence.
-
-SIR is not a physical theory by itself.
-
-It provides the formal mathematical layer used to investigate recursive stability, admissibility, operator structure, and emergent lower-bounded spectral organization.
+- recursive information systems,
+- admissibility-constrained evolution,
+- and recursive validation dynamics.
 
 ---
 
-## Current Research Focus
+# Relation to TIG
 
-The active research focus is the TIG recursive spectral program.
+Topological Integrity Gravity (TIG) represents one physical realization investigated within SIR.
 
-This includes the study of the effective operator:
+While TIG studies recursive structural transitions in gravitational systems, SIR abstracts the underlying recursive mathematical structures into a broader formal framework.
+
+The connection is therefore structural rather than equivalent.
+
+TIG provides:
+
+- physical recursive geometry,
+- critical transition structures,
+- recursive horizon dynamics,
+- and recursive perturbative sectors.
+
+SIR generalizes these into:
+
+- recursive operator theory,
+- admissibility structures,
+- recursive spectral organization,
+- variational lower-bound analysis,
+- recursive topology,
+- and bounded recursive evolution.
+
+---
+
+# Core Research Areas
+
+The present repository focuses on:
+
+- recursive integrity dynamics,
+- admissibility-preserving evolution,
+- recursive geometry,
+- recursive topology,
+- recursive operator systems,
+- spectral stability,
+- variational structures,
+- recursive perturbation theory,
+- recursive state spaces,
+- recursive validation systems,
+- bounded recursive amplification,
+- and lower spectral organization.
+
+The framework investigates whether recursive systems may naturally generate bounded stable structures under admissibility-preserving evolution.
+
+---
+
+# Recursive Spectral Program
+
+One active research direction within SIR is the TIG recursive spectral program.
+
+The current investigations study recursive operators of the form:
 
 \[
-\mathcal{L}_{\mathrm{TIG}}
+\mathcal{L}_{\mathrm{rec}}
 =
 -\Delta
 +
-V_{\mathrm{rec}}(x,\beta)
+V_{\mathrm{rec}}
 \]
 
-with:
+including recursive stabilization sectors such as:
 
 \[
 V_{\mathrm{rec}}(x,\beta)
@@ -44,24 +91,26 @@ V_{\mathrm{rec}}(x,\beta)
 \lambda(\beta-\beta_c)^2
 \]
 
-and the investigation of whether recursively admissible perturbative sectors can produce:
+The present investigations include:
 
-\[
-\omega_{\min} > 0
-\]
-
-The current status is:
-
-- first numerical lower spectral evidence,
+- recursive spectral stability,
+- lower spectral positivity,
+- Hardy-stable parameter sectors,
 - variational lower-bound estimates,
-- Hardy-stable parameter analysis,
-- and ongoing robustness testing.
+- numerical ground-state scans,
+- and recursive critical behavior.
+
+The framework currently provides:
+
+- exploratory numerical lower spectral evidence,
+- candidate variational positivity structures,
+- and recursive admissibility analysis.
 
 No physical Yang–Mills mass-gap claim is currently made.
 
 ---
 
-## Repository Structure
+# Repository Structure
 
 ```text
 Structural_Integrity_Recursion/
