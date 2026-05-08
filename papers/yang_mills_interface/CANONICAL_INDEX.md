@@ -359,6 +359,26 @@ Depends on:
 
 ---
 
+## Canonical Authority
+
+### `spectral_stability_proposition.md`
+
+Defines:
+
+- exploratory spectral stability structures,
+- positive lower spectral persistence conditions,
+- bounded perturbative spectral evolution,
+- and recursive lower spectral stabilization mechanisms.
+
+Depends on:
+
+- proto lower spectral implication structures,
+- continuum operator domains,
+- bounded recursive perturbations,
+- and variational lower-bound analysis.
+
+---
+
 # 7. Directory Governance Layer
 
 ## Canonical Authority
@@ -422,3 +442,5 @@ Bounded Recursive Perturbations
 Kato–Rellich Compatibility
     ↓
 Proto Lower Spectral Structure
+    ↓
+Spectral Stability Proposition
