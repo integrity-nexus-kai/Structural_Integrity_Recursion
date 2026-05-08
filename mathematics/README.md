@@ -4,11 +4,9 @@
 
 This layer contains the formal mathematical structures of SIR (Structural Integrity Recursion).
 
-The purpose is not numerical implementation.
+The primary purpose is structural mathematical formalization rather than direct physical implementation.
 
-The purpose is structural formalization.
-
-The framework additionally investigates whether recursive geometric integrity structures can generate emergent spectral organization and critical gap-like behavior through non-linear structural dynamics.
+The framework additionally investigates whether recursive geometric integrity structures can generate emergent critical gap-like behavior through non-linear structural dynamics.
 
 This includes:
 
@@ -50,7 +48,7 @@ Topological admissibility and integrity-preserving connectivity structures.
 
 ## spectral_analysis
 
-Recursive spectral stability, perturbative operator analysis, eigenvalue structures, and investigation of possible emergent spectral gap formation.
+Recursive spectral stability, perturbative operator analysis, eigenvalue structures, spectral flow behavior, and investigation of possible emergent lower-bounded spectral sectors.
 
 ---
 
@@ -58,11 +56,43 @@ Recursive spectral stability, perturbative operator analysis, eigenvalue structu
 
 Framework Phase: Formal Mathematical Structuring
 
-Research Status: Exploratory Recursive Mathematics
+Research Status: Exploratory Recursive Spectral Geometry
 
 Current Focus:
 
 - mathematical derivation of TIG,
 - critical transition analysis,
 - recursive operator stability,
-- and spectral gap investigation.
+- self-adjoint spectral structures,
+- perturbative localization,
+- spectral-flow analysis,
+- asymptotic spectral behavior,
+- and lower spectral investigation.
+
+---
+
+# Scientific Direction
+
+The mathematical framework investigates whether recursively constrained geometric systems can generate:
+
+- bounded perturbative sectors,
+- recursive stabilization behavior,
+- localized spectral structures,
+- admissibility-preserving operator evolution,
+- and emergent lower-bounded spectral organization.
+
+Particular focus is given to near-critical recursive transition regimes associated with:
+
+\[
+x^3 - x^2 + \beta^3 = 0
+\]
+
+and the resulting recursive spectral structures emerging near:
+
+\[
+\beta \rightarrow \beta_c
+\]
+
+The framework remains exploratory and mathematically structural.
+
+No physical mass-gap claim is currently made.
