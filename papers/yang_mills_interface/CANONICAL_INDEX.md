@@ -1,446 +1,256 @@
-# Yang–Mills Interface Canonical Index
+# CANONICAL_INDEX
 
 ## Purpose
 
-This document defines the canonical structure, dependency hierarchy, document authority mapping, and organizational consistency framework for the exploratory Yang–Mills Interface program within Structural Integrity Recursion (SIR).
+This index defines the canonical structure of the Yang–Mills Interface program within Structural Integrity Recursion (SIR).
 
-The objective is maintaining:
+The purpose of this document is:
 
-- mathematical consistency,
-- controlled terminology,
-- dependency transparency,
-- canonical research organization,
-- and disciplined framework evolution.
+- reducing redundancy,
+- isolating the canonical analytical route,
+- and identifying the current mathematical frontier of the framework.
 
-The framework remains exploratory and mathematically structural.
-
-No Yang–Mills Mass Gap proof is currently claimed.
+The framework does NOT claim a proof of the Yang–Mills Mass Gap problem.
 
 ---
 
-# 1. Canonical Organizational Principle
+# Canonical Reading Route
 
-The Yang–Mills Interface directory is organized as a layered exploratory research framework.
-
-The objective is not producing isolated speculative papers.
-
-Instead, the framework aims to construct a coherent recursive spectral research architecture with explicitly defined:
-
-- dependency structures,
-- operator hierarchies,
-- stabilization layers,
-- and analytical development paths.
+The following files define the current canonical research path.
 
 ---
 
-# 2. Foundational Operator Layer
-
-## Canonical Authority
-
-### `yang_mills_operator_foundations.md`
-
-Defines:
-
-- non-abelian operator perspective,
-- Yang–Mills operator structure,
-- foundational spectral terminology,
-- and operator-level research scope.
-
-All later operator discussions depend on this document.
-
----
-
-## Canonical Authority
-
-### `yang_mills_variational_operator.md`
-
-Defines:
-
-- recursive variational structures,
-- quadratic-form organization,
-- and exploratory lower-bound investigation direction.
-
-Provides the canonical variational baseline.
-
----
-
-## Canonical Authority
-
-### `yang_mills_self_adjointness.md`
-
-Defines:
-
-- admissible operator domains,
-- self-adjointness conditions,
-- Hilbert-space requirements,
-- and operator stability principles.
-
-All continuum operator investigations depend on this document.
-
----
-
-## Canonical Authority
-
-### `yang_mills_admissible_state_spaces.md`
-
-Defines:
-
-- admissibility structures,
-- perturbative state-sector organization,
-- gauge-sector selection,
-- and recursive admissibility principles.
-
-All admissibility investigations depend on this document.
-
----
-
-# 3. Stabilization Layer
-
-## Canonical Authority
-
-### `yang_mills_recursive_compactness.md`
-
-Defines:
-
-- recursive compactness structures,
-- bounded perturbative sectors,
-- recursive localization support,
-- and compact spectral organization.
-
-Depends on:
-
-- admissibility,
-- perturbative stability,
-- and localization structures.
-
----
-
-## Canonical Authority
-
-### `yang_mills_recursive_localization.md`
-
-Defines:
-
-- recursive localization structures,
-- perturbative concentration behavior,
-- stabilization wells,
-- and spectral escape suppression.
-
-Depends on:
-
-- admissibility,
-- compactness,
-- and perturbative stability.
-
----
-
-## Canonical Authority
-
-### `yang_mills_spectral_flow.md`
-
-Defines:
-
-- spectral evolution structures,
-- recursive spectral restructuring,
-- perturbative spectral organization,
-- and bounded spectral flow.
-
-Depends on:
-
-- operator foundations,
-- self-adjointness,
-- localization,
-- and compactness.
-
----
-
-## Canonical Authority
-
-### `yang_mills_recursive_spectral_stabilization.md`
-
-Defines:
-
-- integrated recursive stabilization structures,
-- bounded spectral organization,
-- admissibility-preserving spectral evolution,
-- and recursive stabilization chains.
-
-Depends on:
-
-- localization,
-- compactness,
-- admissibility,
-- and spectral flow.
-
----
-
-# 4. Program Consolidation Layer
-
-## Canonical Authority
-
-### `yang_mills_recursive_gap_program.md`
-
-Defines:
-
-- global exploratory research architecture,
-- recursive stabilization chain,
-- global dependency structure,
-- and long-term organizational direction.
-
-Depends on all prior stabilization-layer documents.
-
----
-
-## Canonical Authority
-
-### `RESEARCH_PRIORITY.md`
-
-Defines:
-
-- mathematical prioritization,
-- strategic research order,
-- consolidation focus,
-- and long-term development sequencing.
-
-This document governs future expansion priorities.
-
----
-
-# 5. Numerical Interface Layer
-
-## Canonical Authority
-
-### `yang_mills_numerical_interface.md`
-
-Defines:
-
-- exploratory numerical spectral objectives,
-- recursive eigenvalue investigations,
-- continuum-scaled numerical organization,
-- and numerical stabilization methodology.
-
-Serves as the canonical numerical interface baseline.
-
----
-
-## Canonical Authority
-
-### `stabilized_recursive_spectral_scan_results.md`
-
-Defines:
-
-- initial stabilized recursive spectral scan results,
-- finite-dimensional stabilization observations,
-- and exploratory lower spectral separation evidence.
-
-Depends on:
-
-- recursive numerical stabilization models.
-
----
-
-## Canonical Authority
-
-### `recursive_gap_scaling_results.md`
-
-Defines:
-
-- recursive scaling investigations,
-- operator-dimension scaling behavior,
-- and finite-dimensional spectral robustness analysis.
-
-Depends on:
-
-- stabilized recursive spectral scans.
-
----
-
-## Canonical Authority
-
-### `scaled_recursive_confinement_results.md`
-
-Defines:
-
-- continuum-scaled recursive confinement investigations,
-- continuum-stable numerical spectral organization,
-- and stabilized lower spectral separation under scaling.
-
-Depends on:
-
-- continuum-scaled recursive confinement operators.
-
----
-
-# 6. Continuum Operator Layer
-
-## Canonical Authority
-
-### `continuum_operator_domain_program.md`
-
-Defines:
-
-- continuum operator-domain structure,
-- Hilbert-space foundations,
-- admissible continuum evolution,
-- and continuum scaling requirements.
-
-Serves as the canonical continuum operator baseline.
-
----
-
-## Canonical Authority
-
-### `variational_lower_bound_lemma.md`
-
-Defines:
-
-- exploratory variational lower-bound structures,
-- positive lower spectral organization conditions,
-- and recursive stabilization inequalities.
-
-Depends on:
-
-- continuum operator structures.
-
----
-
-## Canonical Authority
-
-### `bounded_recursive_perturbation_lemma.md`
-
-Defines:
-
-- bounded recursive perturbation structures,
-- relative perturbation control,
-- and perturbative operator stability conditions.
-
-Depends on:
-
-- variational lower-bound structures,
-- and continuum operator domains.
-
----
-
-## Canonical Authority
-
-### `kato_rellich_interface.md`
-
-Defines:
-
-- exploratory Kato–Rellich compatibility,
-- relative boundedness structures,
-- and self-adjoint perturbation compatibility.
-
-Depends on:
-
-- bounded recursive perturbation analysis,
-- self-adjointness,
-- and continuum operator theory.
-
----
-
-## Canonical Authority
-
-### `proto_lower_spectral_theorem.md`
-
-Defines:
-
-- exploratory lower spectral implication chains,
-- proto-theorem structures,
-- stabilization assumptions,
-- and heuristic lower spectral positivity organization.
-
-Depends on:
-
-- continuum operator domains,
-- variational lower bounds,
-- bounded recursive perturbations,
-- and Kato–Rellich compatibility.
-
----
-
-## Canonical Authority
-
-### `spectral_stability_proposition.md`
-
-Defines:
-
-- exploratory spectral stability structures,
-- positive lower spectral persistence conditions,
-- bounded perturbative spectral evolution,
-- and recursive lower spectral stabilization mechanisms.
-
-Depends on:
-
-- proto lower spectral implication structures,
-- continuum operator domains,
-- bounded recursive perturbations,
-- and variational lower-bound analysis.
-
----
-
-# 7. Directory Governance Layer
-
-## Canonical Authority
-
-### `README.md`
-
-Defines:
-
-- scientific position,
-- repository philosophy,
-- reading order,
-- research boundaries,
-- and high-level framework interpretation.
-
-Serves as the canonical external entry point.
-
----
-
-## Canonical Authority
-
-### `CANONICAL_INDEX.md`
-
-Defines:
-
-- dependency hierarchy,
-- document authority structure,
-- canonical terminology organization,
-- and framework stabilization mapping.
-
-Serves as the canonical internal consistency layer.
-
----
-
-# 8. Dependency Hierarchy
-
-The current dependency organization is approximately:
+## 1. Executive Overview
 
 ```text
-Operator Foundations
-    ↓
-Variational Structures
-    ↓
-Self-Adjointness
-    ↓
-Admissible State Spaces
-    ↓
-Localization + Compactness
-    ↓
-Spectral Flow
-    ↓
-Recursive Spectral Stabilization
-    ↓
-Numerical Interface Layer
-    ↓
-Continuum Operator Domains
-    ↓
-Variational Lower Bounds
-    ↓
-Bounded Recursive Perturbations
-    ↓
-Kato–Rellich Compatibility
-    ↓
-Proto Lower Spectral Structure
-    ↓
-Spectral Stability Proposition
+EXECUTIVE_MATHEMATICAL_OVERVIEW.md
+```
+
+High-level summary of the asymptotic compactness program and its scientific position.
+
+---
+
+## 2. Core Analytical Chain
+
+```text
+core_analytical_chain.md
+```
+
+Condensed formulation of the central compactness mechanism.
+
+Core structure:
+
+```text
+bounded energy
+        ↓
+confinement growth
+        ↓
+tightness
+        ↓
+local H¹-bounds
+        ↓
+Rellich compactness
+        ↓
+strong local convergence
+        ↓
+global mass persistence
+        ↓
+nontrivial limit states
+```
+
+---
+
+# Technical Compactness Layer
+
+## 3. Rigorous Tightness Lemma Attempt
+
+```text
+rigorous_tightness_lemma_attempt.md
+```
+
+Derives asymptotic non-escape estimates from confinement growth.
+
+---
+
+## 4. Rigorous Local H1 Bound Attempt
+
+```text
+rigorous_local_h1_bound_attempt.md
+```
+
+Establishes local \(H^1\)-type control from bounded spectral energy.
+
+---
+
+## 5. Rigorous Rellich Extraction Attempt
+
+```text
+rigorous_rellich_extraction_attempt.md
+```
+
+Uses local \(H^1\)-control to obtain strong local compactness extraction.
+
+---
+
+## 6. Rigorous Global Mass Persistence Attempt
+
+```text
+rigorous_global_mass_persistence_attempt.md
+```
+
+Combines tightness and compactness to suppress global \(L^2\)-mass escape.
+
+---
+
+## 7. Rigorous Low Energy Limit Structure Attempt
+
+```text
+rigorous_low_energy_limit_structure_attempt.md
+```
+
+Investigates possible persistence of asymptotic low-energy structure.
+
+---
+
+# Spectral Barrier Layer
+
+## 8. Rigorous Spectral Persistence Barrier
+
+```text
+rigorous_spectral_persistence_barrier.md
+```
+
+Defines the central unresolved barrier separating compactness persistence from spectral-gap persistence.
+
+---
+
+## 9. Spectral Crowding Instability Analysis
+
+```text
+spectral_crowding_instability_analysis.md
+```
+
+Analyzes the principal instability mechanism:
+
+```text
+asymptotic spectral crowding
+```
+
+---
+
+## 10. Final Open Barrier Statement
+
+```text
+final_open_barrier_statement.md
+```
+
+Condenses the framework to the final unresolved spectral-geometry problem.
+
+---
+
+# Operator / Variational Layer
+
+## 11. Operator Convergence Strategy
+
+```text
+operator_convergence_strategy.md
+```
+
+Introduces possible operator-level convergence structures.
+
+---
+
+## 12. Quadratic Form Convergence Attempt
+
+```text
+quadratic_form_convergence_attempt.md
+```
+
+Investigates variational stabilization of quadratic forms.
+
+---
+
+## 13. Gamma Convergence Strategy Attempt
+
+```text
+gamma_convergence_strategy_attempt.md
+```
+
+Explores Γ-type variational persistence mechanisms.
+
+---
+
+# Current Mathematical Frontier
+
+The current frontier of the framework is:
+
+```text
+compactness persistence
+        ↓
+variational stabilization
+        ↓
+operator convergence candidates
+        ↓
+[ unresolved spectral geometry ]
+        ↓
+spectral crowding control
+        ↓
+potential gap persistence
+```
+
+The unresolved region remains completely open.
+
+---
+
+# Scientifically Correct Current Position
+
+The framework currently establishes at most:
+
+- an asymptotic compactness architecture,
+- compactness-compatible low-energy persistence structures,
+- variational stabilization candidates,
+- and exploratory operator-convergence strategies.
+
+However the framework does NOT establish:
+
+\[
+\inf_N
+(\lambda_1(N)-\lambda_0(N))
+>0
+\]
+
+nor any Yang–Mills mass-gap proof.
+
+---
+
+# Most Important Conceptual Insight
+
+The central conceptual insight of the framework is:
+
+```text
+The principal unresolved difficulty
+is likely not compactness itself,
+but asymptotic spectral crowding.
+```
+
+This defines the current mathematical core of the remaining problem.
+
+---
+
+# Recommended Development Strategy
+
+The recommended next-stage development strategy is:
+
+1. Stop uncontrolled framework expansion.
+2. Consolidate the analytical chain.
+3. Focus only on rigorous technical estimates.
+4. Investigate operator-level spectral geometry.
+5. Analyze spectral-density control mechanisms.
+6. Avoid premature proof claims.
+
+The current stage should be interpreted as:
+
+```text
+an exploratory asymptotic compactness
+and spectral-geometry research program.
+```
