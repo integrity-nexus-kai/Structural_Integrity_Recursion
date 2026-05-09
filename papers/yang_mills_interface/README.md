@@ -1,240 +1,283 @@
 # Yang–Mills Interface
 
-## Purpose
+## Overview
 
-This directory contains exploratory mathematical investigations into possible interfaces between:
+The Yang–Mills Interface program within Structural Integrity Recursion (SIR) investigates whether asymptotic compactness mechanisms may stabilize low-energy spectral structure under continuum refinement.
 
-- Structural Integrity Recursion (SIR),
-- recursive spectral operator systems,
-- variational lower-bound structures,
-- recursive admissibility theory,
-- recursive localization and compactness,
-- exploratory numerical spectral systems,
-- continuum operator-domain structures,
-- and Yang–Mills-type spectral problems.
+The framework does **NOT** claim a proof of the Yang–Mills Mass Gap problem.
 
-The present framework remains exploratory and mathematically structural.
+Instead, the program develops an exploratory asymptotic compactness architecture connecting:
 
-No Yang–Mills Mass Gap proof is currently claimed.
+- bounded energy,
+- confinement-induced concentration,
+- compactness persistence,
+- variational stabilization,
+- operator-convergence strategies,
+- and spectral-geometry barriers.
 
----
-
-# Scientific Position
-
-The scientifically correct interpretation of the current framework is:
-
-- SIR investigates recursive spectral organization mechanisms,
-- SIR explores admissibility-preserving operator evolution,
-- SIR studies recursive stabilization structures,
-- SIR investigates exploratory numerical spectral behavior,
-- and SIR may eventually provide mathematically useful tools for broader lower spectral investigations.
-
-The framework does not currently construct or solve the full Yang–Mills quantum operator problem.
-
-No rigorous lower spectral positivity proof currently exists within the framework.
+The current framework isolates the precise unresolved obstruction separating compactness persistence from genuine spectral-gap persistence.
 
 ---
 
-# Current Research Direction
+# Central Scientific Position
 
-The present work focuses on:
+The scientifically correct current position is:
 
-- recursive operator organization,
-- variational lower-bound structures,
-- admissibility-preserving perturbative sectors,
-- recursive localization,
-- recursive compactness,
-- bounded spectral flow,
-- recursive spectral stabilization,
-- exploratory numerical spectral interface studies,
-- continuum operator-domain analysis,
-- bounded recursive perturbation structures,
-- Kato–Rellich compatibility investigations,
-- and exploratory lower spectral implication chains.
+- compactness persistence may suppress asymptotic mass escape,
+- variational stabilization structures may remain plausible,
+- and asymptotic low-energy limit states may persist.
 
-The framework studies these structures only at an exploratory mathematical level.
+However:
 
----
+```text
+compactness persistence alone
+does NOT imply spectral-gap persistence.
+```
 
-# Research Priorities
+The central unresolved barrier is:
 
-The current mathematical priorities are:
+```text
+asymptotic spectral crowding
+```
 
-## Priority 1 — Operator Foundations
-
-- admissible operator domains,
-- self-adjointness,
-- gauge-consistent Hilbert spaces,
-- and controlled perturbative evolution.
-
----
-
-## Priority 2 — Variational Lower Bounds
-
-Investigation of structures of the form:
+Therefore:
 
 \[
-Q[u]\ge c\|u\|^2
+\inf_N
+(\lambda_1(N)-\lambda_0(N))
+>0
 \]
 
-within recursively admissible operator systems.
+remains completely unresolved.
+
+No Yang–Mills mass-gap proof currently exists within the framework.
 
 ---
 
-## Priority 3 — Localization and Compactness
+# Canonical Analytical Route
 
-Investigation of:
+The current canonical route through the framework is:
 
-- recursive localization,
-- compact perturbative sectors,
-- recursive stabilization wells,
-- and bounded recursive amplification.
+```text
+bounded energy
+        ↓
+confinement growth
+        ↓
+tightness
+        ↓
+local H¹-bounds
+        ↓
+Rellich compactness
+        ↓
+strong local convergence
+        ↓
+global mass persistence
+        ↓
+nontrivial limit states
+        ↓
+possible operator stabilization
+        ↓
+[ unresolved spectral geometry ]
+        ↓
+spectral crowding barrier
+```
 
----
-
-## Priority 4 — Spectral Flow
-
-Exploratory investigations of:
-
-\[
-\lambda_n(t)
-\]
-
-under recursively admissible perturbative evolution.
-
----
-
-## Priority 5 — Numerical Interface Layer
-
-Exploratory numerical investigations of:
-
-- recursive eigenvalue scans,
-- bounded spectral evolution,
-- perturbative stabilization behavior,
-- localization structures,
-- and recursive spectral organization.
+This defines the current frontier of the program.
 
 ---
 
-## Priority 6 — Continuum Operator Theory
+# Recommended Reading Order
 
-Exploratory investigations of:
+## 1. Executive Overview
 
-- continuum operator domains,
-- bounded recursive perturbations,
-- variational lower-bound structures,
-- Kato–Rellich compatibility,
-- and proto lower spectral implication chains.
+```text
+EXECUTIVE_MATHEMATICAL_OVERVIEW.md
+```
 
----
-
-# Reading Order
-
-Recommended reading sequence:
-
-1. `yang_mills_operator_foundations.md`
-2. `yang_mills_variational_operator.md`
-3. `yang_mills_self_adjointness.md`
-4. `yang_mills_admissible_state_spaces.md`
-5. `yang_mills_recursive_compactness.md`
-6. `yang_mills_recursive_localization.md`
-7. `yang_mills_spectral_flow.md`
-8. `yang_mills_recursive_spectral_stabilization.md`
-9. `yang_mills_recursive_gap_program.md`
-10. `RESEARCH_PRIORITY.md`
-11. `yang_mills_numerical_interface.md`
-12. `continuum_operator_domain_program.md`
-13. `variational_lower_bound_lemma.md`
-14. `bounded_recursive_perturbation_lemma.md`
-15. `kato_rellich_interface.md`
-16. `proto_lower_spectral_theorem.md`
+High-level summary of the asymptotic compactness program.
 
 ---
 
-# Repository Philosophy
+## 2. Core Analytical Chain
 
-The present framework intentionally avoids:
+```text
+core_analytical_chain.md
+```
 
-- premature physical claims,
-- unsupported mass-gap assertions,
-- speculative equivalence statements,
-- and non-rigorous proof language.
-
-The objective is disciplined mathematical framework development.
+Condensed presentation of the central compactness mechanism.
 
 ---
 
-# Current Mathematical Unknowns
+## 3. Rigorous Tightness Lemma Attempt
 
-Major unresolved problems include:
+```text
+rigorous_tightness_lemma_attempt.md
+```
 
-1. rigorous Yang–Mills Hamiltonian construction,
-2. admissible gauge Hilbert spaces,
-3. self-adjoint operator domains,
-4. recursive compactness theorems,
-5. localization stability analysis,
-6. spectral-flow stabilization,
-7. variational lower-bound proofs,
-8. rigorous lower spectral positivity,
-9. numerical continuum consistency,
-10. recursive spectral convergence behavior,
-11. renormalization stability,
-12. gauge-invariant continuum evolution,
-13. rigorous continuum-limit estimates,
-14. and admissible perturbative operator control.
-
-These remain open mathematical problems.
+Derives the central asymptotic non-escape estimate from bounded energy and confinement growth.
 
 ---
 
-# Relation to SIR
+## 4. Rigorous Local H1 Bound Attempt
 
-The Yang–Mills interface should not be interpreted as a completed extension of SIR.
+```text
+rigorous_local_h1_bound_attempt.md
+```
 
-Instead, the present work represents an exploratory mathematical research direction investigating whether recursively constrained stabilization structures may eventually provide useful insight into non-linear gauge spectral organization.
-
----
-
-# Numerical Research Layer
-
-The framework now additionally includes an exploratory numerical interface layer investigating:
-
-- recursive eigenvalue evolution,
-- bounded spectral flow,
-- stabilization behavior,
-- recursive localization,
-- continuum-scaled confinement,
-- and exploratory lower spectral structures.
-
-These numerical investigations are exploratory only and do not constitute rigorous Yang–Mills analysis.
+Establishes local \(H^1\)-type control from bounded spectral energy.
 
 ---
 
-# Continuum Operator Layer
+## 5. Rigorous Rellich Extraction Attempt
 
-The framework additionally investigates exploratory continuum operator structures involving:
+```text
+rigorous_rellich_extraction_attempt.md
+```
 
-- continuum-scaled recursive operators,
-- bounded recursive perturbation sectors,
-- variational lower-bound structures,
-- Kato–Rellich compatibility,
-- recursive confinement operators,
-- and exploratory lower spectral implication chains.
+Uses local \(H^1\)-control to obtain strong local compactness extraction.
 
-These investigations currently remain exploratory and do not constitute rigorous lower spectral proofs.
+---
+
+## 6. Rigorous Global Mass Persistence Attempt
+
+```text
+rigorous_global_mass_persistence_attempt.md
+```
+
+Combines tightness and local compactness to suppress global mass escape.
+
+---
+
+## 7. Rigorous Spectral Persistence Barrier
+
+```text
+rigorous_spectral_persistence_barrier.md
+```
+
+Identifies why compactness persistence alone does NOT imply spectral-gap persistence.
+
+---
+
+## 8. Operator Convergence Strategy
+
+```text
+operator_convergence_strategy.md
+```
+
+Introduces possible operator-level convergence mechanisms.
+
+---
+
+## 9. Spectral Crowding Instability Analysis
+
+```text
+spectral_crowding_instability_analysis.md
+```
+
+Analyzes the principal instability mechanism threatening spectral-gap persistence.
+
+---
+
+## 10. Final Open Barrier Statement
+
+```text
+final_open_barrier_statement.md
+```
+
+Condenses the entire framework into the final unresolved spectral-geometry barrier.
+
+---
+
+# Current Program Structure
+
+The framework currently contains four major layers.
+
+---
+
+## A. Compactness Layer
+
+Focus:
+
+- tightness,
+- concentration persistence,
+- compactness extraction,
+- non-escape mechanisms.
+
+---
+
+## B. Variational Layer
+
+Focus:
+
+- quadratic-form stabilization,
+- coercivity,
+- Γ-type convergence strategies,
+- variational persistence.
+
+---
+
+## C. Operator Layer
+
+Focus:
+
+- operator-convergence strategies,
+- spectral geometry,
+- resolvent structures,
+- limiting operators.
+
+---
+
+## D. Spectral Barrier Layer
+
+Focus:
+
+- spectral crowding,
+- asymptotic spectral density,
+- low-energy mode accumulation,
+- gap-collapse mechanisms.
+
+---
+
+# Important Scientific Limitations
+
+The framework currently does NOT establish:
+
+- rigorous operator convergence,
+- rigorous Γ-convergence,
+- rigorous spectral convergence,
+- rigorous spectral-gap persistence,
+- ultraviolet spectral suppression,
+- asymptotic spectral-density control,
+- continuum Yang–Mills spectral stability,
+- or Yang–Mills mass-gap results.
+
+The present framework defines only an exploratory asymptotic compactness and spectral-geometry research program.
+
+---
+
+# Most Important Conceptual Insight
+
+The central conceptual insight of the current framework is:
+
+```text
+The principal difficulty of the Yang–Mills mass-gap problem
+may not be compactness itself,
+but asymptotic spectral crowding.
+```
+
+This defines the current mathematical frontier of the program.
 
 ---
 
 # Long-Term Objective
 
-The long-term objective is investigating whether recursively admissible operator systems may generate stabilized lower spectral organization through:
+The long-term objective is constructing mathematically controlled continuum operator frameworks capable of rigorously investigating whether:
 
-- recursive localization,
-- recursive compactness,
-- bounded perturbative evolution,
-- admissibility-preserving spectral stabilization,
-- controlled spectral flow,
-- recursively stabilized numerical spectral behavior,
-- and mathematically controlled continuum operator evolution.
+- asymptotic compactness,
+- variational persistence,
+- operator stabilization,
+- and spectral-density control
+
+may collectively suppress asymptotic spectral crowding within non-linear gauge systems.
 
 At the current stage, the framework remains exploratory mathematical research only.
