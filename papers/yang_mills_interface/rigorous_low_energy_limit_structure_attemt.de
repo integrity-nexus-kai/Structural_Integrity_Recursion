@@ -1,0 +1,321 @@
+# Rigorous Low Energy Limit Structure Attempt
+
+## Purpose
+
+This worksheet investigates whether asymptotic compactness and global mass persistence induce a meaningful low-energy limiting structure in the simplified continuum operator setting.
+
+The objective is not proving the Yang–Mills Mass Gap problem.
+
+Instead, the purpose is analyzing the first possible bridge between compactness persistence and asymptotic spectral structure.
+
+---
+
+# 1. Setup
+
+Let:
+
+\[
+H_N=-\Delta+V_N
+\]
+
+on:
+
+\[
+L^2(\mathbb R^d)
+\]
+
+with normalized states:
+
+\[
+\|\psi_N\|_{L^2}=1
+\]
+
+satisfying:
+
+\[
+H_N\psi_N=\lambda_N\psi_N
+\]
+
+Assume:
+
+\[
+\lambda_N\le E
+\]
+
+uniformly in \(N\).
+
+Assume additionally:
+
+\[
+V_N(x)\ge -C_0
+\]
+
+uniformly.
+
+---
+
+# 2. Previously Established Structures
+
+Previous worksheets heuristically established:
+
+---
+
+## Tightness
+
+\[
+\int_{|x|>R}
+|\psi_N|^2dx
+\rightarrow0
+\]
+
+uniformly under suitable confinement growth.
+
+---
+
+## Local H1 Bounds
+
+\[
+\|\psi_N\|_{H^1(K)}
+\le C_K
+\]
+
+for compact regions \(K\).
+
+---
+
+## Strong Local Convergence
+
+There exists a subsequence:
+
+\[
+\psi_{N_k}
+\rightarrow
+\psi_\infty
+\]
+
+strongly in:
+
+\[
+L^2_{\mathrm{loc}}(\mathbb R^d)
+\]
+
+---
+
+## Global Mass Persistence
+
+Potentially:
+
+\[
+\psi_\infty\neq0
+\]
+
+and possibly:
+
+\[
+\|\psi_\infty\|_{L^2}=1
+\]
+
+---
+
+# 3. Central Spectral Question
+
+The central unresolved issue is now:
+
+Does:
+
+\[
+\psi_\infty
+\]
+
+retain meaningful low-energy spectral structure?
+
+More precisely:
+
+Can asymptotic compactness interact with the eigenvalue equation:
+
+\[
+H_N\psi_N=\lambda_N\psi_N
+\]
+
+in a stable way?
+
+---
+
+# 4. Weak Eigenvalue Structure
+
+Formally:
+
+\[
+(-\Delta+V_N)\psi_N
+=
+\lambda_N\psi_N
+\]
+
+or equivalently:
+
+\[
+-\Delta\psi_N
+=
+(\lambda_N-V_N)\psi_N
+\]
+
+The right-hand side remains formally controlled if:
+
+- \(\lambda_N\) stays bounded,
+- and \(V_N\) remains sufficiently controlled locally.
+
+---
+
+# 5. Compactness Interpretation
+
+Since:
+
+\[
+\psi_{N_k}
+\rightarrow
+\psi_\infty
+\]
+
+locally strongly in:
+
+\[
+L^2_{\mathrm{loc}}
+\]
+
+the framework heuristically investigates whether local low-energy structure survives asymptotically.
+
+Potentially:
+
+- concentration persists,
+- oscillatory instability remains controlled,
+- and low-energy organization survives refinement.
+
+---
+
+# 6. Proto-Limit Equation Heuristic
+
+If sufficiently strong convergence mechanisms existed, one would hope formally for:
+
+\[
+H_\infty\psi_\infty
+=
+\lambda_\infty\psi_\infty
+\]
+
+for some asymptotic operator:
+
+\[
+H_\infty
+\]
+
+and limiting spectral value:
+
+\[
+\lambda_\infty
+\]
+
+However:
+
+- no rigorous limiting operator construction exists,
+- and no rigorous spectral convergence argument has been established.
+
+---
+
+# 7. Proto-Low-Energy Persistence Principle
+
+The exploratory principle becomes:
+
+```text
+bounded low-energy spectrum
++
+tightness
++
+compactness persistence
++
+non-escape of mass
+        ↓
+potential asymptotic low-energy structure
+```
+
+This represents the first direct compactness-to-spectrum bridge in the program.
+
+---
+
+# 8. Structural Meaning
+
+The chain now becomes:
+
+```text
+bounded energy
+        ↓
+tightness
+        ↓
+local H¹-bounds
+        ↓
+Rellich compactness
+        ↓
+strong local convergence
+        ↓
+global mass persistence
+        ↓
+nontrivial limit states
+        ↓
+potential low-energy limit structure
+```
+
+This is now the actual analytical core of the entire framework.
+
+---
+
+# 9. Critical Remaining Problem
+
+The central unresolved problem is now explicit:
+
+Even if:
+
+\[
+\psi_\infty\neq0
+\]
+
+there is still NO proof that:
+
+- spectral gaps persist,
+- eigenvalues converge,
+- limiting operators exist,
+- or spectral separation survives refinement.
+
+The entire Yang–Mills mass gap problem remains open.
+
+---
+
+# 10. Next Step
+
+The next worksheet must therefore isolate the true remaining bottleneck:
+
+```text
+rigorous_spectral_persistence_barrier.md
+```
+
+Goal:
+
+Identify precisely why compactness alone is insufficient to prove:
+
+\[
+\inf_N(\lambda_1(N)-\lambda_0(N))>0
+\]
+
+and isolate the exact unresolved spectral step.
+
+---
+
+# 11. Limitation
+
+This worksheet does NOT prove:
+
+- spectral convergence,
+- limiting operator existence,
+- spectral gap persistence,
+- continuum compactness persistence,
+- or Yang–Mills mass gap results.
+
+It establishes only a heuristic bridge between compactness persistence and asymptotic low-energy structure.
