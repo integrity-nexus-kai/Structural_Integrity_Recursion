@@ -1,256 +1,530 @@
-# Canonical Terminology
+# CANONICAL_TERMINOLOGY
 
 ## Purpose
 
-This document defines the canonical terminology of the exploratory Yang–Mills Interface framework within Structural Integrity Recursion (SIR).
+This document defines the canonical terminology of the Yang–Mills Interface program within Structural Integrity Recursion (SIR).
 
-The objective is maintaining:
+The objective of this file is:
 
-- mathematical consistency,
-- terminological stability,
-- explicit conceptual scope,
-- disciplined analytical usage,
-- and research transparency.
+- stabilizing conceptual language,
+- preventing terminology drift,
+- separating precise meanings from overinterpretation,
+- and maintaining consistent scientific communication across the framework.
 
-The framework remains exploratory and mathematically structural.
-
-No Yang–Mills Mass Gap proof is currently claimed.
+This document should be treated as the canonical terminology registry of the program.
 
 ---
 
-# 1. Foundational Terminology
+# 1. Asymptotic Tightness
 
-## Recursive Stabilization
+## Canonical Meaning
 
-"Recursive stabilization" denotes exploratory mechanisms through which recursively admissible continuum evolution suppresses destabilizing spectral behavior.
+Suppression of asymptotic \(L^2\)-mass escape under confinement growth.
 
-This terminology does NOT imply rigorous mathematical stabilization theorems.
-
-The expression refers only to exploratory stabilization structures observed within simplified continuum operator systems.
-
----
-
-## Admissible Evolution
-
-"Admissible evolution" denotes continuum operator evolution remaining compatible with:
-
-- bounded perturbative behavior,
-- admissible operator domains,
-- localization persistence,
-- and controlled spectral organization.
-
-The terminology currently remains exploratory.
-
----
-
-## Lower Spectral Persistence
-
-"Lower spectral persistence" denotes the exploratory hypothesis that positive lower spectral organization remains stable under admissible perturbative and continuum evolution.
-
-The expression does NOT imply rigorous lower spectral positivity proofs.
-
----
-
-## Continuum Scaling
-
-"Continuum scaling" denotes investigations performed under increasing operator dimension:
+Typically expressed heuristically through estimates of the form:
 
 \[
-N\rightarrow\infty
+\int_{|x|>R}
+|\psi_N(x)|^2dx
+\rightarrow0
 \]
 
-or equivalently:
-
-\[
-dx\rightarrow0
-\]
-
-within discretized continuum approximations.
-
-The terminology currently refers only to exploratory continuum-scaled operator systems.
+uniformly under refinement.
 
 ---
 
-## Recursive Compactness
+## Intended Interpretation
 
-"Recursive compactness" denotes exploratory boundedness and localization structures suppressing destabilizing continuum spectral diffusion.
-
-No rigorous compactness theorem is currently established.
+Asymptotic concentration persistence of low-energy states.
 
 ---
 
-## Recursive Localization
+## Explicitly Does NOT Mean
 
-"Recursive localization" denotes exploratory confinement-induced suppression of destabilizing excitation propagation and spectral escape.
-
-The terminology currently refers only to simplified continuum operator structures.
-
----
-
-# 2. Physical Terminology
-
-## Vacuum Sector
-
-"Vacuum sector" denotes the admissible ground-state sector relative to which excitation spectra are investigated.
-
-The framework currently does NOT establish rigorous Yang–Mills vacuum construction.
+- spectral-gap persistence,
+- spectral-density control,
+- operator convergence,
+- or spectral stabilization.
 
 ---
 
-## Excitation Sector
+# 2. Compactness Persistence
 
-"Excitation sector" denotes admissible spectral sectors above the vacuum structure.
+## Canonical Meaning
 
-The framework currently investigates exploratory excitation organization only.
+Persistence of concentration-compatible subsequences under asymptotic refinement.
 
----
+Typically involving:
 
-## Effective Mass
-
-"Effective mass" denotes exploratory dynamically generated excitation-energy organization associated with positive vacuum-relative lower spectral separation.
-
-The framework currently does NOT establish rigorous dynamical mass generation.
-
----
-
-## Observable Sector
-
-"Observable sector" denotes exploratory gauge-compatible observable structures associated with excitation, confinement, and correlation organization.
-
-The framework currently does NOT establish rigorous gauge-invariant observable algebras.
+- tightness,
+- local compactness,
+- Rellich-type extraction,
+- and strong local convergence.
 
 ---
 
-## Correlation Length
+## Intended Interpretation
 
-"Correlation length" denotes exploratory suppression of long-range excitation propagation potentially compatible with behavior of the form:
-
-\[
-\langle O(x)O(0)\rangle
-\sim
-e^{-m|x|}
-\]
-
-The framework currently does NOT establish rigorous exponential correlation decay.
+Nontrivial asymptotic state persistence.
 
 ---
 
-# 3. Mathematical Terminology
+## Explicitly Does NOT Mean
 
-## Bounded Perturbation
-
-"Bounded perturbation" denotes perturbative structures remaining sufficiently controlled relative to stabilized reference operators.
-
-The framework currently investigates exploratory perturbative boundedness only.
+- spectral-gap persistence,
+- spectral-density suppression,
+- or stabilization of spectral geometry.
 
 ---
 
-## Relative Form Bound
+# 3. Non-Escape Mechanism
 
-"Relative form bound" denotes exploratory inequalities of the form:
+## Canonical Meaning
 
-\[
-|\langle\psi,V\psi\rangle|
-\le
-a\langle\psi,H_0\psi\rangle
+Mechanism suppressing asymptotic loss of spectral mass toward spatial infinity.
+
+Typically involving:
+
+```text
+tightness
 +
-b\|\psi\|^2
-\]
+strong local convergence
+```
 
-potentially satisfying:
+---
+
+## Intended Interpretation
+
+Preservation of nontrivial asymptotic limit states.
+
+---
+
+## Explicitly Does NOT Mean
+
+- preservation of spectral separation,
+- or persistence of spectral gaps.
+
+---
+
+# 4. Local H1 Control
+
+## Canonical Meaning
+
+Uniform local \(H^1\)-type boundedness:
 
 \[
-a<1
+\|\psi_N\|_{H^1(K)}
+\le C_K
 \]
 
-within admissible perturbative evolution.
-
-No rigorous proof currently exists.
+for compact regions \(K\).
 
 ---
 
-## Spectral Stability
+## Intended Interpretation
 
-"Spectral stability" denotes exploratory persistence of bounded lower spectral organization under admissible continuum evolution.
-
-The terminology does NOT imply rigorous spectral persistence theorems.
+Local regularity compatible with compactness extraction.
 
 ---
 
-## Admissible Gauge Sector
+## Explicitly Does NOT Mean
 
-"Admissible gauge sector" denotes exploratory gauge-consistent physical state organization compatible with bounded continuum spectral evolution.
-
-The framework currently does NOT establish rigorous gauge-sector construction.
-
----
-
-## Continuum Operator Domain
-
-"Continuum operator domain" denotes admissible Hilbert-space operator structures associated with recursively stabilized continuum evolution.
-
-The framework currently investigates exploratory continuum operator compatibility only.
+- global compactness,
+- operator stabilization,
+- or spectral persistence.
 
 ---
 
-# 4. Structural Usage Principle
+# 5. Rellich Compactness
 
-All canonical terminology within the Yang–Mills Interface framework must satisfy:
+## Canonical Meaning
 
-1. explicit mathematical scope,
-2. avoidance of overclaiming,
-3. explicit distinction between:
-   - numerical evidence,
-   - heuristic interpretation,
-   - exploratory structure,
-   - and rigorous proof,
-4. explicit limitation statements,
-5. and controlled analytical usage.
+Strong local compactness extraction arising from bounded local \(H^1\)-control.
 
-The framework intentionally avoids unsupported physical claims.
+Typically:
 
----
+\[
+\psi_{N_k}
+\rightarrow
+\psi_\infty
+\]
 
-# 5. Scientific Limitation Principle
+strongly in:
 
-The present framework currently does NOT establish:
-
-- rigorous Yang–Mills Hamiltonians,
-- rigorous gauge Hilbert spaces,
-- rigorous renormalization-group flow,
-- rigorous continuum-limit stability,
-- rigorous confinement theorems,
-- rigorous excitation-spectrum analysis,
-- rigorous observable algebras,
-- rigorous dynamical mass generation,
-- or rigorous Yang–Mills Mass Gap proofs.
-
-All terminology must therefore be interpreted within an exploratory mathematical-research context only.
+\[
+L^2_{\mathrm{loc}}
+\]
 
 ---
 
-# 6. Current Scientific Position
+## Intended Interpretation
 
-The scientifically correct current position is:
-
-- recursively stabilized continuum operators numerically exhibit persistent lower spectral organization,
-- recursively admissible stabilization structures appear analytically plausible,
-- and recursively stabilized continuum evolution may remain compatible with bounded lower spectral behavior within simplified continuum operator systems.
-
-No rigorous Yang–Mills Mass Gap proof is currently claimed.
+Persistence of local asymptotic concentration.
 
 ---
 
-# 7. Long-Term Objective
+## Explicitly Does NOT Mean
 
-The long-term objective is constructing a mathematically disciplined continuum operator framework investigating whether recursively admissible stabilization structures may support:
+- global spectral stabilization,
+- spectral-gap persistence,
+- or spectral-density control.
 
-- stable lower spectral persistence,
-- bounded excitation organization,
-- finite correlation-length behavior,
-- gauge-consistent observable evolution,
-- and dynamically generated effective-mass structures
+---
 
-within non-linear gauge systems.
+# 6. Global Mass Persistence
 
-At the current stage, the framework remains exploratory mathematical research only.
+## Canonical Meaning
+
+Suppression of asymptotic total \(L^2\)-mass loss.
+
+Typically arising heuristically from:
+
+```text
+tightness
++
+strong local convergence.
+```
+
+---
+
+## Intended Interpretation
+
+Persistence of nontrivial global asymptotic states.
+
+---
+
+## Explicitly Does NOT Mean
+
+- spectral-gap persistence,
+- operator-level spectral control,
+- or stabilization of spectral geometry.
+
+---
+
+# 7. Low-Energy Limit Structure
+
+## Canonical Meaning
+
+Possible persistence of nontrivial asymptotic low-energy states under refinement.
+
+Potentially involving:
+
+\[
+\psi_\infty\neq0
+\]
+
+---
+
+## Intended Interpretation
+
+Asymptotic persistence of low-energy concentration structures.
+
+---
+
+## Explicitly Does NOT Mean
+
+- rigorous limiting operators,
+- spectral convergence,
+- or mass-gap persistence.
+
+---
+
+# 8. Variational Stabilization
+
+## Canonical Meaning
+
+Possible asymptotic stabilization of energy functionals or quadratic forms.
+
+Typically involving:
+
+\[
+q_N(\psi)
+=
+\langle\psi,H_N\psi\rangle
+\]
+
+---
+
+## Intended Interpretation
+
+Persistence of variational geometry under refinement.
+
+---
+
+## Explicitly Does NOT Mean
+
+- operator convergence,
+- spectral convergence,
+- or spectral-gap persistence.
+
+---
+
+# 9. Quadratic-Form Stabilization
+
+## Canonical Meaning
+
+Potential asymptotic stabilization of quadratic forms:
+
+\[
+q_N(\psi_N)
+\rightarrow
+q_\infty(\psi_\infty)
+\]
+
+in a variational sense.
+
+---
+
+## Intended Interpretation
+
+Bridge candidate between compactness persistence and operator geometry.
+
+---
+
+## Explicitly Does NOT Mean
+
+- spectral-density control,
+- or gap stabilization.
+
+---
+
+# 10. Γ-Type Variational Persistence
+
+## Canonical Meaning
+
+Exploratory variational convergence strategy inspired by Γ-convergence structures.
+
+Potentially involving:
+
+- lower-semicontinuity,
+- recovery sequences,
+- and minimizing-structure persistence.
+
+---
+
+## Intended Interpretation
+
+Persistence of variational structures under asymptotic refinement.
+
+---
+
+## Explicitly Does NOT Mean
+
+- spectral-gap persistence,
+- operator stabilization,
+- or control of spectral geometry.
+
+---
+
+# 11. Operator Stabilization
+
+## Canonical Meaning
+
+Possible asymptotic stabilization of operator-level structures.
+
+Potentially involving:
+
+- resolvent convergence,
+- Mosco convergence,
+- norm-resolvent convergence,
+- or related structures.
+
+---
+
+## Intended Interpretation
+
+Possible stabilization of operator geometry under refinement.
+
+---
+
+## Explicitly Does NOT Mean
+
+- spectral-gap persistence,
+- or suppression of spectral crowding.
+
+---
+
+# 12. State Geometry
+
+## Canonical Meaning
+
+Geometry associated with asymptotic behavior of states.
+
+Including:
+
+- concentration,
+- compactness,
+- localization,
+- regularity,
+- and asymptotic persistence.
+
+---
+
+## Intended Interpretation
+
+Compactness-level asymptotic structure.
+
+---
+
+## Explicitly Does NOT Mean
+
+Spectral geometry.
+
+---
+
+# 13. Spectral Geometry
+
+## Canonical Meaning
+
+Geometry associated with spectral organization of operators.
+
+Including:
+
+- spectral density,
+- spectral separation,
+- spectral clustering,
+- spectral multiplicity,
+- and low-energy spectral organization.
+
+---
+
+## Intended Interpretation
+
+Operator-level spectral structure.
+
+---
+
+## Explicitly Does NOT Mean
+
+State compactness.
+
+---
+
+# 14. Spectral Crowding
+
+## Canonical Meaning
+
+Asymptotic compression of low-energy spectral modes.
+
+Potentially:
+
+\[
+\lambda_1(N)-\lambda_0(N)\rightarrow0
+\]
+
+under refinement.
+
+---
+
+## Intended Interpretation
+
+Principal instability mechanism threatening spectral-gap persistence.
+
+---
+
+## Explicitly Does NOT Mean
+
+Loss of compactness.
+
+Compact states may still exhibit spectral crowding.
+
+---
+
+# 15. Spectral Persistence
+
+## Canonical Meaning
+
+Persistence of asymptotic low-energy spectral separation.
+
+Potentially involving:
+
+\[
+\inf_N
+(\lambda_1(N)-\lambda_0(N))
+>0
+\]
+
+---
+
+## Intended Interpretation
+
+Stabilization of spectral geometry.
+
+---
+
+## Explicitly Does NOT Mean
+
+Compactness persistence alone.
+
+---
+
+# 16. Gap Persistence
+
+## Canonical Meaning
+
+Uniform nonzero asymptotic spectral separation under refinement.
+
+---
+
+## Intended Interpretation
+
+Suppression of spectral crowding.
+
+---
+
+## Explicitly Does NOT Mean
+
+Compactness persistence,
+variational stabilization,
+or operator convergence alone.
+
+---
+
+# 17. Yang–Mills Interface Program
+
+## Canonical Meaning
+
+Exploratory asymptotic compactness and spectral-geometry research program.
+
+---
+
+## Intended Interpretation
+
+Research framework investigating whether compactness persistence may contribute to stabilization of low-energy spectral geometry.
+
+---
+
+## Explicitly Does NOT Mean
+
+- solved Yang–Mills theory,
+- proven mass gap,
+- complete quantum field theory,
+- or established continuum spectral theory.
+
+---
+
+# 18. Canonical Conceptual Distinction
+
+The central conceptual distinction of the framework is:
+
+```text
+compactness persistence
+≠
+spectral-gap persistence
+```
+
+This distinction must remain invariant across all future development.
+
+---
+
+# 19. Canonical Scientific Position
+
+The scientifically correct canonical position is:
+
+```text
+The framework isolates
+a coherent asymptotic compactness architecture,
+but spectral geometry remains unresolved.
+```
+
+No Yang–Mills mass-gap proof currently exists within the framework.
