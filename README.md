@@ -81,6 +81,29 @@ The separation between TIG and SIR is intentional and preserves scientific clari
 
 ---
 
+# Origin of SIR
+
+Structural Integrity Recursion (SIR) originated from the mathematical consolidation efforts surrounding the development of Topological Integrity Gravity (TIG).
+
+During the investigation of admissibility conditions, horizon transitions, structural stability, and consistency-preserving constraints within TIG, recurring mathematical structures emerged that appeared independent of the specific physical interpretation.
+
+These observations suggested that certain admissibility principles may belong to a broader class of recursively governed mathematical systems rather than being exclusive to gravitational frameworks.
+
+SIR was therefore established as a mathematically separated research environment intended to investigate these underlying structural principles in their own right.
+
+In this sense:
+
+- TIG investigates physical admissibility.
+- SIR investigates mathematical admissibility.
+
+TIG serves as the original physical discovery context.
+
+SIR serves as the mathematical abstraction and formalization environment derived from those observations.
+
+The separation between both frameworks is intentional and preserves scientific clarity, publication stability, and independent mathematical development.
+
+---
+
 # Mathematical Position
 
 SIR is currently positioned as:
