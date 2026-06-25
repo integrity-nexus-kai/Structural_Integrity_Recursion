@@ -11,7 +11,7 @@ abstract: >-
   Structural Integrity Recursion (SIR) is a mathematical and recursive
   abstraction framework focused on admissibility, structural consistency,
   recursive stabilization, and mathematically governed abstraction layers.
-license: MIT
+license: "LicenseRef-Canonical-Integrity-License-1.0"
 keywords:
   - recursion
   - admissibility
