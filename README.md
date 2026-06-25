@@ -10,6 +10,27 @@ Instead, SIR investigates whether recursive systems can be governed through stru
 
 ---
 
+# License and Canonical Status
+
+This repository is governed by the **Canonical Integrity License v1.0**.
+
+See:
+
+- `LICENSE`
+- `CANONICAL_STATUS.md`
+
+Core rule:
+
+```text
+Share: yes.
+Cite: yes.
+Study: yes.
+Independent further development: yes.
+Modify or redistribute canonical SIR material as canonical: no.
+```
+
+---
+
 # Core Research Direction
 
 The primary objective of SIR is the investigation of:
@@ -193,8 +214,19 @@ https://github.com/integrity-nexus-kai/Quantum_Integrity_Core
 
 ---
 
+# Citation
+
+If referencing this repository, please cite the repository metadata defined in:
+
+`/CITATION.cff`
+
+---
+
 # Author
 
 Kai Stefan Dietrich  
 Independent Researcher  
-Contact: kai.physics@protonmail.ch
+Official contact: kai.physics@protonmail.ch
+
+GitHub:  
+https://github.com/integrity-nexus-kai
