@@ -1,5 +1,7 @@
 # Structural Integrity Recursion (SIR)
 
+> Governance candidate: the local mapping to the draft TIG Research Governance Standard is recorded in `governance/TRGS_LOCAL_PROFILE.md`. It is not an independent mathematical validation or an activation of the standard.
+
 Structural Integrity Recursion (SIR) is a mathematical and recursive abstraction framework focused on admissibility, structural consistency, and recursively stabilized formal systems.
 
 The framework emerged from the mathematical consolidation requirements surrounding Topological Integrity Gravity (TIG), but is maintained as a mathematically separated research environment.
